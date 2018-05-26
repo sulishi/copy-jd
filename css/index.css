@@ -1,0 +1,373 @@
+.urben {
+    position: absolute;
+    background-color: #fff;
+    width: 322px;
+    height: 333px;
+    top: 32px;
+    left: 232px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-top: 0px;
+    z-index: 999;
+    display: none;
+}
+
+.urben li {
+    width: 40px;
+    margin: 5px 10px;
+    padding: 2px;
+    text-align: center;
+}
+
+.urben a:hover {
+    background-color: #ddd;
+    color: #f10215;
+}
+
+.urben li a {
+    padding: 2px 5px;
+}
+
+.selected {
+    background-color: #f10215;
+    color: #fff;
+}
+
+.my {
+    position: absolute;
+    width: 200px;
+    height: 160px;
+    border: 2px solid #ddd;
+    border-top: 0px;
+    background-color: #fff;
+    z-index: 999;
+    padding: 10px 2px;
+    display: none;
+}
+
+.my li {
+    width: 70px;
+    margin: 0 20px 0 5px;
+}
+
+.grid {
+    height: 470px;
+    position: relative;
+}
+
+.sub-row {
+    position: absolute;
+    left: 190px;
+    z-index: 999;
+    width: 800px;
+    height: 470px;
+    background-color: #fff;
+    padding-left: 20px;
+    display: none;
+}
+
+.sub-row ul li {
+    padding-top: 20px;
+}
+
+.sub-row ul li:nth-child(1) a {
+    width: 80px;
+    margin: 0 5px 0 0;
+    font-size: 12px;
+    background-color: #000;
+    padding: 4px;
+    color: #fff;
+}
+
+.sub-row ul li:nth-child(1) a:hover {
+    background-color: #666;
+}
+
+.sub-row ul li a {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.grid-col1 {
+    position: relative;
+    width: 190px;
+    height: 100%;
+    background-color: #fff;
+    font-size: 14px;
+    color: #6e6865;
+    position: relative;
+}
+
+.grid-col1 ul {
+    padding: 10px 0;
+}
+
+.grid-col1 ul li {
+    padding-left: 12px;
+    height: 27px;
+    line-height: 27px;
+}
+
+.grid-col1 ul li:hover {
+    background-color: #ddd;
+}
+
+.grid-col1 a {
+    font-size: 14px;
+    color: #666;
+    margin-right: 0 2px;
+}
+
+.ad {
+    width: 250px;
+    height: 470px;
+    position: absolute;
+    top: 0;
+    left: -250px;
+}
+
+.ad-r {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    z-index: 999;
+    width: 0;
+    height: 470px;
+    background: url(../images/5afefb81Nb8eb6a9d.png);
+    transition: all 1s;
+}
+
+.ad:hover .ad-r {
+    width: 790px;
+}
+
+.grid-col1 a:hover {
+    color: #f10215;
+}
+
+.grid-col2 {
+    width: 590px;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.grid-col3 {
+    width: 190px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.grid-col4 {
+    width: 190px;
+    height: 100%;
+    margin-left: 14px;
+}
+
+.grid-col4 :nth-child(2) {
+    margin: 7px 0;
+}
+
+.grid-col2-t {
+    position: relative;
+}
+
+.grid-col2-t img {
+    display: none;
+}
+
+.grid-col2-t img:nth-child(1) {
+    display: block
+}
+
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 60px;
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 60px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.grid-col2-t i {
+    font-family: "icomoon";
+    font-style: normal;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.grid-col2-t i:hover {
+    color: #fff;
+}
+
+.circle {
+    width: 167px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    left: 25%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding-left: 8px;
+}
+
+.circle li {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: left;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.circle .current {
+    background-color: #f10215;
+}
+
+.login {
+    height: 120px;
+    background-color: #fff;
+    padding: 15px;
+    position: relative;
+}
+
+.login-t {
+    width: 150px;
+    font-size: 12px;
+    white-space: nowrap;
+    /* 强制不换行 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*多出来省略 */
+    color: #666;
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    margin-top: 3px;
+    line-height: 20px;
+}
+
+.login-h {
+    position: absolute;
+    top: -10px;
+    left: 60px;
+}
+
+.login-h img {
+    border: 5px solid #ddd;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
+}
+
+.login-vip {
+    position: absolute;
+    top: 115px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.login-vip a {
+    width: 55px;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+.login-vip :nth-child(1) {
+    background-color: #fff;
+    color: #f10215;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
+    margin-right: 10px;
+}
+
+.login-vip a:hover {
+    background-color: #f10215;
+    color: #fff;
+}
+
+.login-vip :nth-child(2) {
+    background-color: rgb(19, 13, 13);
+    color: #e4d021;
+}
+
+.news {
+    width: 169px;
+    margin: 0 auto;
+    height: 140px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    color: rgb(26, 25, 25);
+}
+
+.news-t {
+    height: 25px;
+}
+
+.sale li {
+    display: block;
+    text-align: left;
+    width: 25px;
+    padding-bottom: 3px;
+}
+
+.sale :nth-child(2) {
+    margin: 0 15px;
+    color: #ddd;
+}
+
+.sale li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #f10215;
+}
+
+.news-b {
+    clear: both;
+    padding-top: 5px;
+}
+
+.news-b li {
+    width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 5px 0;
+}
+
+.expand {
+    height: 189px;
+    font-size: 12px;
+    width: 160px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.expand li {
+    width: 40px;
+    height: 63px;
+    float: left;
+}
+
+.expand li a {
+    display: block;
+    padding-top: 20px;
+}
+
+.miaosha {
+    height: 270px;
+    background-color: #ddd;
+    margin-top: 30px;
+}
+
+.ph {
+    background-color: #f10215;
+    width: 190px;
+    height: 100%;
+}

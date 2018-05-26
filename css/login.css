@@ -1,0 +1,46 @@
+.login {
+    background: url(../images/5b02798cNead88af7.jpg) no-repeat;
+    height: 470px;
+    width: 990px;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+}
+
+.in {
+    position: absolute;
+    top: 100px;
+    right: -10px;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.n {
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.n span {
+    display: inline-block;
+    width: 50px;
+}
+
+.n input {
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+
+.n input[type=button] {
+    background-color: #f10215;
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+.forget {
+    float: right;
+    margin-right: 10px;
+    font-size: 14px;
+}
